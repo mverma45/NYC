@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-size: 14px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
