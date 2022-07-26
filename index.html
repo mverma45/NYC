@@ -15,11 +15,11 @@
         <li><a href="#about">About</a></li>
       </ul>
     </nav>
-    <header>
+    <header class="header">
       <h1>New York City</h1>
     </header>
     <main>
-      <section id="blog">
+      <section class="blog">
         <article>
           <p>
             New York City is made up of five boroughs which include Queens,
@@ -38,19 +38,17 @@
         </article>
       </section>
       <figure>
-        <img
-          src="https://content.codecademy.com/courses/Semantic%20HTML/statue-of-liberty.jpeg"
-        />
+        <img src="./images/statue0fliberty.jpg" />
         <figcaption>
           This is the Statue of Liberty, a popular tourist attraction located on
           Ellis Island.
         </figcaption>
       </figure>
-      <aside>
-        <p>
-          New York City is very popular for the variety of great food it has.
-          Some of the top food items in NYC include:
-        </p>
+      <p class="food-nyc">
+        New York City is very popular for the variety of great food it has. Some
+        of the top food items in NYC include:
+      </p>
+      <aside id="media">
         <ol>
           <li>Pizza</li>
           <li>Bagels</li>
@@ -61,26 +59,15 @@
           <li>Desserts</li>
         </ol>
       </aside>
-      <section id="media">
+      <section>
         <article>
-          <h2>The Scenery in NYC</h2>
-          <p>
-            While the view in the city is beautiful, the sounds are not as
-            lovely. Below you'll see an example of the view and the sounds
-            you'll deal with in NYC on a daily basis.
+          <h2 class="scenery">The Scenery in NYC</h2>
+          <p class="scenery-aside">
+            While the view in the city is beautiful, below is a busy street in NYC
           </p>
+          <img src="./images/nyc-busy.jpg" alt="Busy NYC Street">
         </article>
-        <video
-          src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-skyline-timelapse.mp4"
-          controls
-        ></video>
-        <embed
-          src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-skyline.jpeg"
-        />
-        <audio
-          controls
-          src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-sounds.mov"
-        ></audio>
+        </div>
       </section>
     </main>
     <footer id="about">

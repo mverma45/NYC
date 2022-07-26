@@ -14,3 +14,53 @@ body {
 li {
   list-style: none;
 }
+
+.header {
+  color: rgb(221, 51, 51);
+  text-align: center;
+}
+
+.header:hover {
+  color: rgb(9, 3, 3);
+  transition: 2s;
+}
+
+.blog {
+  margin: 2em;
+}
+
+img {
+  display: block;
+  margin: auto auto;
+}
+
+figcaption {
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+.food-nyc {
+  /* top | right | bottom | left */
+  padding: 1em;
+  margin-right: 0.25em;
+}
+
+.scenery {
+  text-align: center;
+  color: rgb(221, 51, 51);
+}
+
+.scenery:hover {
+  color: rgb(9, 3, 3);
+  transition: 2s;
+}
+
+.scenery-aside {
+  text-align: center;
+}
+
+.video-nyc {
+  text-align: center;
+  width: auto;
+  height: 1000px;
+}
